@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace basanta\phpmvc;
 
 use Exception;
-use app\core\db\Database;
+use basanta\phpmvc\db\Database;
 
 class Application
 {

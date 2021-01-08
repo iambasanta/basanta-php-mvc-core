@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace basanta\phpmvc\db;
 
-use app\core\Application;
+use basanta\phpmvc\Application;
 
 use PDO;
 

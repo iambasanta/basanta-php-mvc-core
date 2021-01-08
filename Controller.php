@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace basanta\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use basanta\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {

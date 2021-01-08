@@ -1,10 +1,15 @@
 {
-    "name": "basanta/php-mvc-core",
-    "authors": [
-        {
-            "name": "iambasanta",
-            "email": "sangpangbasanta@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "basanta/php-mvc-core",
+  "authors": [
+    {
+      "name": "iambasanta",
+      "email": "sangpangbasanta@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "basanta\\phpmvc\\": "./"
+    }
+  }
 }

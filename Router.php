@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace basanta\phpmvc;
 
-use app\core\exception\NotFoundException;
+use basanta\phpmvc\exception\NotFoundException;
 
 class Router
 {
@@ -43,7 +43,7 @@ class Router
 
         if (is_array($callback)) {
             //creates an object of controller
-            /* @var app\core\Controller $controller*/
+            /* @var basanta\phpmvc\Controller $controller*/
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

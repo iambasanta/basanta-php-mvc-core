@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\db;
+namespace basanta\phpmvc\db;
 
-use app\core\Model;
-use app\core\Application;
+use basanta\phpmvc\Model;
+use basanta\phpmvc\Application;
 
 abstract class DbModel extends Model
 {

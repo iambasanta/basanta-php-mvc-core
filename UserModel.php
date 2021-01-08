@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace basanta\phpmvc;
 
-use app\core\db\DbModel;
+use basanta\phpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {
